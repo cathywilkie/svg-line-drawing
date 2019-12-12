@@ -1,0 +1,170 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 64px;
+  top: 162px;
+  opacity: 0;
+  animation: fade-in 1s linear forwards;
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: fade-in 1s .5s linear forwards;
+}
+
+#narwhal-body {
+  animation: body-draw 1s linear forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
+}
+
+#rainbow-violet {
+  animation: violet-draw 1s linear forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
+}
+
+#rainbow-indigo {
+  animation: indigo-draw 1s linear forwards;
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
+}
+
+#rainbow-blue {
+  animation: blue-draw 1s linear forwards;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+}
+
+#rainbow-green {
+  animation: green-draw 1s linear forwards;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+}
+
+#rainbow-yellow {
+  animation: yellow-draw 1s linear forwards;
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
+}
+
+#rainbow-orange {
+  animation: orange-draw 1s linear forwards;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+}
+
+#rainbow-red {
+  animation: red-draw 1s linear forwards;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes body-draw {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes violet-draw {
+
+  0% {
+    stroke-dashoffset: 1918px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes indigo-draw {
+
+  0% {
+    stroke-dashoffset: 1812px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes blue-draw {
+
+  0% {
+    stroke-dashoffset: 1705px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes green-draw {
+
+  0% {
+    stroke-dashoffset: 1596px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes yellow-draw {
+
+  0% {
+    stroke-dashoffset: 1483px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes orange-draw {
+
+  0% {
+    stroke-dashoffset: 1366px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes red-draw {
+
+  0% {
+    stroke-dashoffset: 1243px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
